@@ -1,0 +1,146 @@
+@import url('common.css');
+
+
+
+$pink:#FF9292;
+$white:#fff;
+$black:#333;
+/*  main    */
+main{margin:0 auto;}
+
+
+/*   ban   */
+.ban{
+    position: relative;
+    height: 400px;
+    width:100%;
+    margin:0 auto;
+    padding:0;
+    overflow: hidden;
+    div{
+        width: 100%;
+        height: 100%;
+    }
+    figure{
+        width:100%;
+        height: 100%;
+        display: flex;
+        position: relative;
+
+        a{
+            width:100%;
+            height: 100%;
+            flex:0 0 auto;
+
+            img{
+                width:100%;
+                height: 100%;
+            }
+        }
+    }
+
+    .slick-dots{
+        position:absolute;
+        bottom:5%;
+        left:50%;
+        list-style: none;
+        margin:0;
+        padding:0;
+
+        li{
+            display: inline-block;
+            margin:0 3px;
+
+            button{
+                width:10px;
+                height: 10px;
+                border-radius: 100%;
+                background:rgba(0,0,0,0.2);
+                font-size: 0;
+                border:none;
+                padding:0;
+            }
+        }
+        li.slick-active{
+            button{
+                background:$pink;
+            }
+        }
+    }
+}
+
+
+
+/*   sunny   */
+.sunny{
+    padding:20px;
+    text-align: center;
+    p{
+        margin:5px;
+    }
+    p:nth-of-type(1):before{
+        content: '';
+        display:block;
+        background:url(../img/eye_black.png) center top no-repeat;
+        width:100%;
+        height:22px;
+    }
+}
+
+
+/*   service   */
+.service{
+    background:#eee;
+    padding:20px;
+    text-align: center;
+    p{
+        margin:5px;
+    }
+    p:nth-of-type(1):before{
+        content: '';
+        display:block;
+        background:url(../img/service.png) center top no-repeat;
+        width:100%;
+        height:28px;
+    }
+}
+
+
+/*   map   */
+.map{
+    text-align: center;
+    padding:20px 0 0 0;
+    p{
+        margin:5px;
+    }
+    p:nth-of-type(1):before{
+        content: '';
+        display:block;
+        background:url(../img/map.png) center top no-repeat;
+        width:100%;
+        height:30px;
+    }
+
+    iframe{
+        width:100%;
+        height: 400px;
+    }
+}
+
+@media (max-width:480px) {
+    .ban{
+        position: relative;
+        height: 200px;
+        width:100%;
+        margin:0 auto;
+        padding:0;
+        overflow: hidden;
+    }
+
+    .map{
+        iframe{
+            width:100%;
+            height: 200px;
+        }
+    }
+}
