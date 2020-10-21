@@ -1,0 +1,91 @@
+html,body,strong{
+    margin:0;
+}
+ul,li{
+    margin:0;
+    padding:0;
+    list-style: none;
+    font-size: 13px;
+}
+figure{
+    margin:0;
+    padding:0;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin:0;
+    padding:0;
+}
+p{font-size:13px;}
+a{
+    text-decoration: none;
+    color:#333;
+    font-size: 13px;
+}
+*{box-sizing: border-box;}
+
+$pink:#FF9292;
+$white:#fff;
+$black:#333;
+/*  header  */
+header{
+
+    height: 167px;
+    article{
+        background-color: $white;
+        width:100%;
+        margin:0 auto;
+        text-align: center;
+        position: fixed;
+        z-index: 999;
+        h1{
+            padding:26px;
+            a{
+                img{}
+            }
+        }
+    }
+
+
+    nav{
+        background:$pink;
+        a{
+            color:$white;
+            display:inline-block;
+            padding:12px 30px;
+            transition: .5s;
+        }
+        a:hover{
+            background:#FF7777;
+        }
+        a.active{
+            background:#FF7777;
+        }
+    }
+}
+
+
+/*  footer  */
+.footer{
+    background:$black;
+    padding:15px;
+    text-align: center;
+    p{
+        text-align: center;
+        color:$white;
+        font-size:8px;
+        white-space: pre-line;
+        padding:7px 0;
+        line-height: 1.3;
+
+        strong{
+            font-size:13px;
+        }
+    }
+    p:nth-of-type(1):before{
+        content:'';
+        display: block;
+        background:url('/img/eye_white.png') center top no-repeat;
+        width:100%;
+        height: 22px;
+    }
+}
