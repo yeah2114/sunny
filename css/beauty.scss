@@ -1,0 +1,23 @@
+@import url('common.css');
+
+main{
+    margin:0 auto;
+}
+
+div{
+    width:100%;
+    text-align: center;
+    img{
+        width:50%;
+    }
+}
+
+@media (max-width:480px) {
+    div{
+        width:100%;
+        text-align: center;
+        img{
+            width:100%;
+        }
+    }
+}
