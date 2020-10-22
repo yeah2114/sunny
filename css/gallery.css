@@ -1,0 +1,46 @@
+@import url("common.css");
+#instagram {
+  overflow: hidden;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.instagram_item {
+  width: 30%;
+  padding: 5px 2.5px;
+}
+
+.instagram_item a {
+  display: block;
+  width: 100%;
+  padding-top: 100%;
+  background: no-repeat center center;
+  background-size: cover;
+}
+
+@media (max-width: 480px) {
+  #instagram {
+    overflow: hidden;
+    widows: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .instagram_item {
+    width: 50%;
+    padding: 0;
+  }
+}
+/*# sourceMappingURL=gallery.css.map */
