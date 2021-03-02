@@ -1,5 +1,5 @@
 $(function () {
-    var token = "IGQVJVYXhlUERnak9wbl81NllNZADBGRHk4YV9kWTYxYUdSekNHN0pnYUV5aVg5aWVfTzZAYU2pvS01QSkp4X1Q0R2dxdnJfR3d1UWYzV2VfUnVSUXRJb3lNelIyejRYRktvS1FnWElJcDczWi1sby1ZANAZDZD";
+    var token = "IGQVJWTGlaX2lhZAWdoaXVPNkFXNFpTN0dZAenRLOTViNUh3b0xiNjlEMDJ1VHhfSFRFTVNySE5oN3d6bGJ4NHNyVTg3N1VpXy1GUHpucXA5aDBmcEV2YWdUMUFVZAWVvQVRxUVpQdkRGSFFLT2hZAdmJnMgZDZD";
 
     /*
         발급된 토큰은 장기 실행 액세스 토큰으로 60일간 사용이 가능합니다.
